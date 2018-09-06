@@ -1,7 +1,5 @@
 # mAP (mean Average Precision)
 
-[![New](https://img.shields.io/badge/2018-NEW-brightgreen.svg)](https://github.com/Cartucho/mAP/commits/master)
-[![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)
 
 This code will evaluate the performance of your neural net for object recognition.
 
@@ -14,7 +12,7 @@ In practice, a **higher mAP** value indicates a **better performance** of your n
 - [Prerequisites](#prerequisites)
 - [Quick start](#quick-start)
 - [Running the code](#running-the-code)
-- [Authors](#authors)
+
 
 ## Explanation
 The performance of your neural net will be judged using the mAP criterium defined in the [PASCAL VOC 2012 competition](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/). We simply adapted the [official Matlab code](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/#devkit) into Python (in our tests they both give the same results).
